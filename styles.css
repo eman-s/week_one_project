@@ -1,0 +1,27 @@
+body {
+  background-color: #F2F1E8;
+}
+#main_navigation{
+  font-family: 'Roboto', sans-serif;
+  color: #2B2F26;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+
+
+}
+nav img {
+  max-height:50;
+}
+
+header {
+
+    text-align: center;
+    padding: -1px 0 120px 0;
+    font-size: 2em;
+    background-image: url(img/header-img.jpg);
+    background-size: cover;
+    background-position: right bottom;
+}
