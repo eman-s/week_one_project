@@ -32,21 +32,13 @@ div.logo{
   color: #968772;
 }
 
-}
-
-header {
-
-    text-align: center;
-    padding: -1px 0 120px 0;
-    font-size: 2em;
-    background-image: url(img/header-img.jpg);
-    background-size: cover;
-    background-position: right bottom;
-    flex-wrap: wrap;
 
 }
 div .wrapper{
+  flex-direction: column;
+  flex-grow: 1;
   flex-wrap: wrap;
+
 }
 
 article img{
