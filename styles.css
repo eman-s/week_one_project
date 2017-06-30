@@ -1,19 +1,37 @@
 body {
   background-color: #F2F1E8;
+  display: flex;
+  flex-direction: column;
+
 }
-#main_navigation{
+.logo{
   font-family: 'Roboto', sans-serif;
   color: #2B2F26;
   background-color: white;
-  display: flex;
-  justify-content: space-between;
-  text-align: center;
-
-
 
 }
-nav img {
-  max-height:50;
+div.logo{
+  overflow: hidden;
+  max-height: 65px;
+  min-height: 65px;
+  padding-top: 15px;
+}
+
+.logo img{
+  float: left;
+  height:50px;
+
+}
+.main_navigation{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+#homelink{
+  color: #968772;
+}
+
 }
 
 header {
@@ -24,4 +42,13 @@ header {
     background-image: url(img/header-img.jpg);
     background-size: cover;
     background-position: right bottom;
+    flex-wrap: wrap;
+
+}
+div .wrapper{
+  flex-wrap: wrap;
+}
+
+article img{
+  float: none;
 }
