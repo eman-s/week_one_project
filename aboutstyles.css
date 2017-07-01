@@ -1,0 +1,35 @@
+body {
+  background-color: #F2F1E8;
+
+
+}
+.logo{
+
+  color: #2B2F26;
+  background-color: white;
+
+}
+div.logo{
+  overflow: hidden;
+  max-height: 65px;
+  min-height: 65px;
+  padding-top: 15px;
+  margin: -8px;
+}
+
+.logo img{
+  float: left;
+  height:50px;
+  width: 50px;
+
+}
+.main_navigation{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+#homelink{
+  color: #968772;
+}
