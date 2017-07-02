@@ -36,13 +36,15 @@ div.logo{
 
 
 }
+main{
+
+}
 div .wrapper{
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap:
-
 }
+
 
 
 
@@ -51,18 +53,54 @@ h1{
   font-size: 60px;
 
 }
+h2{
+  color: white;
+  background-color: black;
+
+}
 h3{
   text-align: center;
   font-size: 37px;
 }
 
-article{
+div.images{
   display: flex;
-  flex-direction: column;
+background-repeat: no-repeat;
+background-size:  cover;
+justify-content: space-between;
+
 }
 
-article img{
-  justify-content: space-around;
-  width: 500px;
-  height: auto;
+
+
+
+#pic1{
+  background-image: url(images/optimized/product-1.jpg);
+
+
+}
+#pic2{
+  background-image: url(images/optimized/product-2.jpg);
+
+
+}
+#pic3{
+  background-image: url(images/optimized/product-3.jpg);
+
+
+}
+#pic4{
+  background-image: url(images/optimized/product-4.jpg);
+
+
+}
+#pic5{
+  background-image: url(images/optimized/product-5.jpg);
+
+
+}
+#pic6{
+  background-image: url(images/optimized/product-6.jpg);
+
+
 }
