@@ -70,7 +70,7 @@ h3 {
 
 .top_row {
   display: flex;
-  height: 300px;
+  height: 350px;
   width: 100%;
 }
 
@@ -91,6 +91,8 @@ h3 {
   margin: 5px;
   display: flex;
   align-items: flex-end;
+
+
 }
 
 .two {
@@ -99,6 +101,7 @@ h3 {
   margin: 5px;
   display: flex;
   align-items: flex-end;
+
 }
 
 .three {
@@ -107,6 +110,7 @@ h3 {
   margin: 5px;
   display: flex;
   align-items: flex-end;
+
 }
 
 .four {
@@ -115,6 +119,7 @@ h3 {
   margin: 5px;
   display: flex;
   align-items: flex-end;
+  background-position: left;
 }
 
 .five {
@@ -123,14 +128,16 @@ h3 {
   margin: 5px;
   display: flex;
   align-items: flex-end;
+  background-position: left;
 }
 
 .six {
   background-image: url("images/optimized/product-6.jpg");
-  flex-grow: 6;
+  flex-grow: 4;
   margin: 5px;
   display: flex;
   align-items: flex-end;
+  background-position: top;
 }
 
 .seven {
