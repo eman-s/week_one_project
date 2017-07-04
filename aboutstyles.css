@@ -33,3 +33,53 @@ div.logo{
 #homelink{
   color: #968772;
 }
+
+/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
+#wrapper_1{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#wrapper_2{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.pagetitle{
+  display: flex;
+  justify-content: space-around;
+
+}
+#first_paragraph{
+  display: flex;
+
+}
+
+#birdhouse{
+  float: left;
+  height: 100px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+}
+
+#banner{
+  background-image: url("images/optimized/background-3.jpg");
+  display: flex;
+  background-size: cover;
+  padding: 100px;
+  margin-left: -9px;
+  margin-right: -9px;
+  background-position: center;
+  justify-content: center;
+}
+.banner_text{
+  display: flex;
+  color: white;
+}
+
+#bottom_right_caption{
+display: flex;
+flex-direction: column;
+}
+.pots_on_shelf{
+  width: 150px;
+}
