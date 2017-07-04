@@ -1,7 +1,8 @@
 body {
   background-color: #F2F1E8;
-
-
+}
+p{
+  line-height: 1.8;
 }
 .logo{
 
@@ -36,12 +37,16 @@ div.logo{
 
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 #wrapper_1{
+  display: flex;
   margin-left: 200px;
   margin-right: 200px;
+  flex-direction: column;
 }
 #wrapper_2{
+  display: flex;
   margin-left: 200px;
   margin-right: 200px;
+  flex-direction: column;
 }
 
 .pagetitle{
@@ -75,11 +80,43 @@ div.logo{
   display: flex;
   color: white;
 }
-
-#bottom_right_caption{
-display: flex;
-flex-direction: column;
+#facilities{
+  display: block;
 }
-.pots_on_shelf{
-  width: 150px;
+.image_description{
+  display: block;
+}
+.table{
+  display: block;
+}
+.figure{
+  width: 200px;
+}
+figure{
+  float: right;
+  width: 30%;
+  text-align: left;
+  font-size: medium;
+  text-indent: 0;
+  border: none;
+  margin: 0.5em;
+  padding: 0.5em;
+  margin-right: -20px;
+}
+
+table, td{
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-collapse: collapse;
+}
+
+td{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 80px;
+}
+.even{
+  background-color: brown;
 }
