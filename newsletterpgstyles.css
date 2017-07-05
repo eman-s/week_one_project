@@ -44,3 +44,12 @@ form{
   background-color: white;
   margin: 0;
 }
+
+p{
+  font-family: 'Merriweather', serif;
+}
+
+h2{
+  font-family: 'Merriweather', serif;
+  font-size: xx-large;
+}
