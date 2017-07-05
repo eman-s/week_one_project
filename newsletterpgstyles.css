@@ -53,3 +53,37 @@ h2{
   font-family: 'Merriweather', serif;
   font-size: xx-large;
 }
+
+.signup{
+  width: 50%;
+padding-top: 10px;
+padding-bottom: 70px;
+margin: 15em auto auto auto;
+}
+
+input{
+  padding-right: 25em;
+  border-bottom: solid thin;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.email{
+  margin-top:3em;
+
+}
+
+.submit{
+  margin-top: 3em;
+
+}
+
+#input_labels{
+  font-family: 'Roboto', sans-serif;
+
+}
+
+label{
+  border-bottom: solid thin;
+}
