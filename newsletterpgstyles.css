@@ -1,5 +1,6 @@
 body {
   background-image: url("images/optimized/background-2.jpg");
+  background-size: 90em;
 }
 .logo{
   color: black;
@@ -82,7 +83,7 @@ input{
   color:white;
   padding: 15px 25px;
   margin-bottom: -2em;
-  background-color: brown; 
+  background-color: #968772;
 
 
 }
@@ -94,4 +95,5 @@ input{
 
 label{
   border-bottom: solid thin;
+  border-color: #968772;
 }
