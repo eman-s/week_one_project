@@ -1,5 +1,6 @@
 body {
-  background-color: #F2F1E8;
+  background-image: url("images/optimized/background-2.jpg");
+
 
 
 }
@@ -32,4 +33,14 @@ div.logo{
 
 #homelink{
   color: #968772;
+}
+
+/*\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
+
+
+form{
+  display: block;
+  text-align: center;
+  background-color: white;
+  margin: 0;
 }
