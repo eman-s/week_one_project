@@ -32,8 +32,11 @@ div.logo{
   margin-top: 15px;
 }
 
-#homelink{
+#aboutlink{
   color: #968772;
+}
+a{
+  color:black;
 }
 
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
@@ -66,8 +69,8 @@ div.logo{
   float: left;
   height: 100px;
   margin-right: 35px;
-  margin-bottom: 35px;
-  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 #banner{
@@ -135,5 +138,6 @@ footer {
   padding-bottom: 15;
   padding-top: 15;
   padding-left: 11;
+  font-size: small;
 
 }

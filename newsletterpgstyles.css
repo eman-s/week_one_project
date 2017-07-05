@@ -1,14 +1,12 @@
 body {
   background-image: url("images/optimized/background-2.jpg");
-
-
-
 }
 .logo{
-
-  color: #2B2F26;
+  color: black;
   background-color: white;
-
+}
+a{
+  color:black;
 }
 div.logo{
   overflow: hidden;
@@ -31,7 +29,7 @@ div.logo{
   margin-top: 15px;
 }
 
-#homelink{
+#newsletterlink{
   color: #968772;
 }
 
@@ -47,11 +45,14 @@ form{
 
 p{
   font-family: 'Merriweather', serif;
+  font-size: x-large;
 }
 
 h2{
   font-family: 'Merriweather', serif;
   font-size: xx-large;
+  font-weight: 100;
+  margin-bottom: -18px;
 }
 
 .signup{
@@ -67,6 +68,8 @@ input{
   border-top: none;
   border-left: none;
   border-right: none;
+  font-size: initial;
+  color: grey;
 }
 
 .email{
@@ -74,8 +77,13 @@ input{
 
 }
 
-.submit{
+.submit_button{
   margin-top: 3em;
+  color:white;
+  padding: 15px 25px;
+  margin-bottom: -2em;
+  background-color: brown; 
+
 
 }
 

@@ -1,9 +1,12 @@
 body {
   background-color: #F2F1E8;
 }
+a{
+  color: black;
+}
 
 .logo {
-  color: #2B2F26;
+  color: black;
   background-color: white;
 }
 
