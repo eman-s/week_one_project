@@ -1,6 +1,7 @@
 body {
   background-image: url("images/optimized/background-2.jpg");
   background-size: 90em;
+  
 }
 .logo{
   color: black;
@@ -28,6 +29,13 @@ div.logo{
   display: flex;
   justify-content: space-around;
   margin-top: 15px;
+}
+.main_navigation a:hover{
+  color:#CD5D67;
+  height: 30px;
+}
+.main_navigation a:active{
+  color:#968772;
 }
 
 #newsletterlink{
