@@ -1,7 +1,7 @@
 body {
   background-image: url("images/optimized/background-2.jpg");
   background-size: 90em;
-  
+
 }
 .logo{
   color: black;
@@ -77,7 +77,7 @@ input{
   border-top: none;
   border-left: none;
   border-right: none;
-  font-size: initial;
+  font-size: large;
   color: grey;
 }
 
