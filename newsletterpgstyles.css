@@ -1,4 +1,4 @@
-body {
+/*#nl_body {
   background-image: url("images/optimized/background-2.jpg");
   background-size: 90em;
 }
@@ -47,21 +47,21 @@ div.logo {
 }
 
 
-/*\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 
-form {
+.signup {
   display: block;
   text-align: center;
   background-color: white;
   margin: 0;
+
 }
 
-p {
+.signup p {
   font-family: 'Merriweather', serif;
   font-size: x-large;
 }
 
-h2 {
+.signup h2 {
   font-family: 'Merriweather', serif;
   font-size: xx-large;
   font-weight: 100;
@@ -104,4 +104,4 @@ input {
 label {
   border-bottom: solid thin;
   border-color: #968772;
-}
+}*/

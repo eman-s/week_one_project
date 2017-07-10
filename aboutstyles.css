@@ -1,4 +1,4 @@
-body {
+/*#aboutbody {
   background-color: #F2F1E8;
   margin-bottom: 0;
 }
@@ -52,7 +52,7 @@ a {
 }
 
 
-/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
+
 
 #wrapper_1 {
   display: flex;
@@ -158,7 +158,7 @@ td {
   background-color: #968772;
 }
 
-footer {
+#aboutfooter {
   display: flex;
   background-color: #3d3916;
   margin-left: -8px;
@@ -168,7 +168,7 @@ footer {
   padding-left: 11px;
 }
 
-footer p {
+#aboutfooter p {
   font-size: medium;
   color: white;
 }
@@ -183,12 +183,15 @@ footer p {
 .founder_name {
   margin-top: -25px;
 }
-
-h2 {
+#history_title {
+  font-weight: 100;
+  font-size: xx-large;
+}
+#facilites_title {
   font-weight: 100;
   font-size: xx-large;
 }
 
 #link_to_fac {
   color: #968772;
-}
+}*/
